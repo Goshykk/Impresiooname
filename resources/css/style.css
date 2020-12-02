@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+html{
+	background-color: #fff;
+	color: #555;
+	font-family: 'Lato','Arial', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-rendering: optimizeLegibility;
+}
+
+.row{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+header{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.hero-text-box{
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% ,-50%);
+}
+
+.btn{
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: 300;
+	text-decoration: none;
+	border-radius: 20px;
+}
+.btn:hover {
+ color: white;
+ background-color: #fa801b;
+}
+
+.btn-full{
+	background-color: #e67e22;
+	border: 1px solid #e67e22;
+	color:#fff;
+}
+
+.btn-ghost{
+	border: 1px solid #e67e22;
+	color:#e67e22;
+}
+.titulo_1{
+	font-size: 40pt;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 100;
+}
+.logo{
+	height: 100px;
+	width: auto;
+	float: left;
+	margin-top: 20px;
+}
+.main-nav{
+	width: auto; 
+	float: right;
+	margin-top: 20px;
+	list-style: none;
+	margin-top: 55px;
+}
+
+.main-nav li{
+	display: inline-block;
+	margin-left: 40px;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+	padding: 8px 0;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 90%;
+	border-bottom: 2px solid transparent;
+	-webkit-transition: border-bottom 0.2s;
+	transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+	border-bottom: 2px solid #e67e22;
+}
+
+section{
+	padding: 80px 0;
+}
+.secton-meals{
+	padding: 0;
+}
+
+//Headings
+
+h1,h2,h3{
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+h1{
+	margin-top: 0;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 240%;
+	word-spacing: 4px;
+	letter-spacing: 1px;
+}
+
+h2{
+	font-size: 180%;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+h3{
+	font-size: 110%
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+// Linea del heading
+h2:after{
+	display: block;
+	height: 2px;
+	background-color: #e67e22;
+	content: " ";
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+//Box pading
+.box{
+	padding: 1%;
+}
+
+//Parrafos
+.long-copy{
+	line-height: 145%;
+	width: 80%;
+	margin-left: 15%;
+}
+.box p{
+	font-size: 90%;
+	line-height: 145%;
+}
+
+//Iconos
+.icon-big{
+	font-size: 350%;
+	display: block;
+	color: #e67e22;
+	margin-bottom: 10px;
+}
+
+.icon-small{
+	display: inline-block;
+	width: 30px;
+}
+
+//Comida
+
+.meals-showcase{
+	list-style: none;
+	width: 100%;
+}
+.meals-showcase li{
+	display: block;
+	float: left;
+	width: 25%;
+}
+.meals-photo{
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548);
+	background-color: #000;
+}
+.meals-photo img{
+	width: 100%;
+	height: auto;
+	transition: 1s, opacity 1s;
+	overflow: hidden;
+}
+.meals-photo img:hover{
+	transform: scale(1.4);
+	opacity: 4;
+}

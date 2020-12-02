@@ -1,0 +1,40 @@
+body{
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+
+#sal{
+	background: red;
+	width: 70px;
+	text-align: center;
+	border-radius: 10%;
+	font: 1.6em;
+	font-family: Georgia, 'Times New Roman', Times, Serif;
+	margin-left: 20px;
+	border: 2px solid;
+	border-color: green;
+}
+
+#home{
+	background: red;
+	width: 70px;
+	text-align: center;
+	border-radius: 10%;
+	font: 1.6em;
+	font-family: Georgia, 'Times New Roman', Times, Serif;
+	margin-left: 20px;
+	border: 2px solid;
+	border-color: green;
+}
+
+.card {
+	border: solid;
+	border-radius: 20px;	
+}
+
+#optionsG {
+	border: solid;
+	border-radius: 20px;	
+}
+
