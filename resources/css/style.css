@@ -32,6 +32,7 @@ header{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50% ,-50%);
+	align="center";
 }
 
 .btn{
@@ -49,7 +50,6 @@ header{
 .btn-full{
 	background-color: #e67e22;
 	border: 1px solid #e67e22;
-	color:#fff;
 }
 
 .btn-ghost{
@@ -57,9 +57,10 @@ header{
 	color:#e67e22;
 }
 .titulo_1{
-	font-size: 40pt;
+	font-size: 80pt;
 	font-family: Arial, Helvetica, sans-serif;
-	font-weight: 100;
+	font-weight: 80;
+	opacity: 60%;
 }
 .logo{
 	height: 100px;
@@ -123,6 +124,15 @@ h2{
 	font-size: 180%;
 	word-spacing: 2px;
 	color: #fff;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.h-2{
+	font-size: 180%;
+	word-spacing: 2px;
+	color: #fa801b;
 	letter-spacing: 1px;
 	text-align: center;
 	margin-bottom: 30px;
