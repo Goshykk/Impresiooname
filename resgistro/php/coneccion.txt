@@ -6,3 +6,6 @@ $bd = "registro";
 
 $conexion = mysqli_connect($host, $usuario, $clave, $bd, 3306);
 ?>
+
+Nota: esto es el codigo completo para hacer la coneccion y la pones en tu proyecto 
+en una carpeta que se llama php si no la tienes la haces
