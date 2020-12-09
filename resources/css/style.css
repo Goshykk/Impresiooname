@@ -243,6 +243,6 @@ footer{
 #bot_tienda{
 	height: 50px; 
 	width: 700px;	
-	display: block;
+	display: flex;
   	justify-content: center;
 }
