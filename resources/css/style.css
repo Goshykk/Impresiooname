@@ -239,12 +239,10 @@ footer{
 .row{
 	box-align: center;
 	}
+
 #bot_tienda{
 	height: 50px; 
 	width: 700px;	
-  	align: center;
-}
-#bot_sus{
-	height: 45px; 
-	width: 150px;	
+	display: block;
+  	justify-content: center;
 }
