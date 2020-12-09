@@ -38,3 +38,22 @@ body{
 	border-radius: 20px;	
 }
 
+.header_2{
+	background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgb(0, 0, 0));
+	background-size: cover;
+	background-position: left;
+	height: 18vh;
+}
+
+.row{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.logo{
+	height: 100px;
+	width: auto;
+	float: left;
+	margin-top: 20px;
+	filter: brightness(800%);
+}
