@@ -170,7 +170,7 @@ h2:after{
 	margin-top: 30px;
 }
 
-//Box pading
+// Box pading
 .box{
 	padding: 1%;
 }
@@ -243,5 +243,11 @@ footer{
 #bot_tienda{
 	height: 50px; 
 	width: 700px;
+	margin-left: 30%;
+}
+
+#bot_sus{
+	height: 50px; 
+	width: 500px;
 	margin-left: 30%;
 }
