@@ -49,11 +49,3 @@ body{
 	max-width: 1140px;
 	margin: 0 auto;
 }
-
-.logo{
-	height: 100px;
-	width: auto;
-	float: left;
-	margin-top: 20px;
-	filter: brightness(800%);
-}

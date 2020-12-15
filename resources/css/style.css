@@ -31,10 +31,24 @@ header{
 }
 
 .header_2{
-	background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgb(0, 0, 0));
+	background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgb(0, 0, 0, 0.2));
 	background-size: cover;
 	background-position: left;
 	height: 18vh;
+}
+
+.header3{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 80vh;
+}
+
+.fil{
+	display: flex;
+	height: 10%;
+	margin-left: 21%;
+	width: 10%;
 }
 
 .hero-text-box{
@@ -159,7 +173,7 @@ h3{
 	margin-bottom: 15px;
 }
 
-// Linea del heading
+// Linea de heading
 h2:after{
 	display: block;
 	height: 2px;
@@ -181,6 +195,18 @@ h2:after{
 	width: 80%;
 	margin-left: 15%;
 }
+
+.long-copy_2{
+	line-height: 160%;
+	width: 90%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-left: 5%;
+	font-size: 130%;
+	filter: brightness(250%);
+	margin-right: 10%;
+}
+
 .box p{
 	font-size: 90%;
 	line-height: 145%;
