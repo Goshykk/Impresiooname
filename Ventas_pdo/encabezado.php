@@ -1,11 +1,5 @@
 <?php
-/*
-	Pequeño, muy pequeño sistema de ventas en PHP con MySQL
 
-	@author parzibyte
-
-	No olvides visitar parzibyte.me/blog para más cosas como esta
-*/
 ?>
 <!DOCTYPE html>
 <html lang="es">
